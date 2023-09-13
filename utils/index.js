@@ -92,7 +92,7 @@ export const equipo = [
   },
   {
     name: "Berta Araya",
-    email: "contrato@servicioswillka.cl",
+    email: "administracion@servicioswillka.cl",
     role: "Administradora de Contratos",
     imageUrl: berta,
     quote:
