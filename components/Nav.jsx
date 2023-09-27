@@ -5,6 +5,7 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import logo from "../public/assets/logo.svg";
 import { navLinks } from "../utils/index";
 import Image from "next/image";
+import Link from "next/link";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -40,7 +41,7 @@ export default function Example() {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navLinks.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
                         href={item.href}
                         className={classNames(
@@ -52,7 +53,7 @@ export default function Example() {
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>

@@ -21,6 +21,7 @@ export const servicios = [
     name: "Hospedaje",
     imgSrc: home,
     imgAlt: "Foto del servicio hospedaje",
+    href: "/hospedaje",
     description:
       "Ofrecemos un alojamiento cómodo y acogedor, garantizando una estancia placentera. Disfrute de instalaciones modernas y atención de primera, todo pensado para su confort y satisfacción.",
   },
@@ -29,6 +30,7 @@ export const servicios = [
     name: "Alimentación",
     imgSrc: food,
     imgAlt: "Foto del servicio alimentación",
+    href: "/alimentacion",
     description:
       "Brindamos deliciosas opciones culinarias preparadas con ingredientes frescos y de calidad. Sabores auténticos y atención dedicada para satisfacer todos sus paladares. Disfrute de una experiencia gastronómica incomparable.",
   },
@@ -37,6 +39,7 @@ export const servicios = [
     name: "Transporte",
     imgSrc: minivan,
     imgAlt: "foto del servicio transporte",
+    href: "/transporte",
     description: "Ofrecemos soluciones de transporte eficientes y seguras, adaptadas a sus necesidades. Viaje con comodidad y puntualidad, garantizando un traslado sin contratiempos. Confíe en nosotros para llegar a su destino.",
   },
   {
@@ -44,6 +47,7 @@ export const servicios = [
     name: "Aseo y Limpieza",
     imgSrc: cleaning,
     imgAlt: "foto del servicio limpieza",
+    href: "/aseo_limpieza",
     description: "Brindamos servicios de limpieza industrial de alto estándar, utilizando tecnología avanzada y productos especializados. Aseguramos espacios industriales impecables y seguros, optimizando la productividad y el bienestar de su entorno laboral.",
   },
   {
@@ -51,6 +55,7 @@ export const servicios = [
     name: "Seguridad",
     imgSrc: guard,
     imgAlt: "foto del servicio seguridad",
+    href: "/seguridad",
     description:
       "Ofrecemos guardias capacitados para garantizar la protección de sus espacios y bienes. Seguridad confiable, responsiva y adaptada a sus necesidades.",
     descripcionFull:
@@ -61,6 +66,7 @@ export const servicios = [
     name: "Fumigación",
     imgSrc: exterminator,
     imgAlt: "foto del servicio fumigación",
+    href: "/fumigacion",
     description: "Ofrecemos una solución integral para mantener sus espacios limpios y libres de plagas. Con técnicas avanzadas y productos seguros, garantizamos ambientes higiénicos y protegidos. La limpieza y la salud de su espacio es nuestra prioridad.",
   },
 ];
