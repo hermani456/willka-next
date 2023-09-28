@@ -27,7 +27,7 @@ export default function Example() {
             >
               <div className="w-auto flex flex-col">
                 <Image
-                  className="h-12 w-12 rounded-full border-2 border-orange-900"
+                  className="h-12 w-12 rounded-full border-2 border-orange-500"
                   src={person.imageUrl}
                   alt="foto de perfil"
                   width={50}
