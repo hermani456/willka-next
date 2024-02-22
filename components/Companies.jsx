@@ -25,7 +25,7 @@ export default function Companies() {
     },
   };
   return (
-    <section className="py-8 sm:py-10 bg-gray-900">
+    <section className="py-8 sm:py-10 bg-gradient-to-r from-gray-900 to-black">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* <h2 className="text-center text-2xl font-museomoderno leading-8 text-white">
           Empresas que han confiado en nosotros

@@ -43,7 +43,7 @@ export default function Contacto() {
   };
 
   return (
-    <section className=" bg-blue-950 px-6 py-24 sm:py-20 lg:px-8 font-montserrat" id="contacto">
+    <section className="bg-gradient-to-r from-blue-950 to-black px-6 py-24 sm:py-20 lg:px-8 font-montserrat" id="contacto">
       <div className="mx-auto max-w-2xl text-center">
         {/* <h2 className="text-3xl font-bold font-museomoderno tracking-tight text-white sm:text2xl">
           Contactanos

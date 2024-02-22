@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section
-      className="bg-gray-900 px-6 pt-14 lg:px-8 font-montserrat min-h-screen min-h-svh"
+      className="bg-gradient-to-r from-gray-900 to-black px-6 pt-14 lg:px-8 font-montserrat min-h-screen min-h-svh"
       id="home"
     >
       <motion.div

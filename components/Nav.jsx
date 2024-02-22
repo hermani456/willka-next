@@ -13,7 +13,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-gray-900 font-montserrat">
+    <Disclosure as="nav" className="bg-gradient-to-r from-gray-900 to-black font-montserrat">
       {({ open }) => (
         <>
           <motion.div

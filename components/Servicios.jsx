@@ -8,7 +8,7 @@ import { motion, useInView } from "framer-motion";
 
 export default function Servicios() {
   return (
-    <section className="bg-blue-950 font-montserrat" id="servicios">
+    <section className="bg-gradient-to-r from-blue-950 to-black font-montserrat" id="servicios">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         {/* <h2 className="text-3xl text-center font-museomoderno font-bold tracking-tight text-white mb-10">
           Nuestros Servicios

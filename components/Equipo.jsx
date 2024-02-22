@@ -7,7 +7,7 @@ import TextAnimate from "@/components/TextAnimate";
 
 export default function Example() {
   return (
-    <section className="bg-gray-900 font-montserrat" id="equipo">
+    <section className="bg-gradient-to-r from-gray-900 to-black font-montserrat" id="equipo">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         {/* <h2 className="text-3xl text-center font-museomoderno font-bold tracking-tight text-white mb-3">
           Nuestro Equipo

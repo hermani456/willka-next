@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
   
-        <div className="w-full bg-gray-900 p-4 text-center">
+        <div className="w-full bg-gradient-to-r from-gray-900 to-black p-4 text-center">
           <p>© 2023 Copyright: Servicios Willka</p>
         </div>
       </footer>
