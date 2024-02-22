@@ -7,6 +7,9 @@ import {
   cleaning,
   exterminator,
 } from "../public/assets/img";
+import avemayo from "/public/assets/food/avemayo.png";
+import jamonqueso from "public/assets/food/jamonqueso.webp";
+import fideos from "public/assets/food/fideos.png";
 
 export const navLinks = [
   { name: "Home", href: "#home" },
@@ -19,6 +22,7 @@ export const servicios = [
   {
     id: 1,
     name: "Hospedaje",
+    href: "hospedaje",
     imgSrc: home,
     imgAlt: "Foto del servicio hospedaje",
     description:
@@ -27,6 +31,7 @@ export const servicios = [
   {
     id: 2,
     name: "Alimentación",
+    href: "alimentacion",
     imgSrc: food,
     imgAlt: "Foto del servicio alimentación",
     description:
@@ -35,20 +40,25 @@ export const servicios = [
   {
     id: 3,
     name: "Transporte",
+    href: "transporte",
     imgSrc: minivan,
     imgAlt: "foto del servicio transporte",
-    description: "Ofrecemos soluciones de transporte eficientes y seguras, adaptadas a sus necesidades. Viaje con comodidad y puntualidad, garantizando un traslado sin contratiempos. Confíe en nosotros para llegar a su destino.",
+    description:
+      "Ofrecemos soluciones de transporte eficientes y seguras, adaptadas a sus necesidades. Viaje con comodidad y puntualidad, garantizando un traslado sin contratiempos. Confíe en nosotros para llegar a su destino.",
   },
   {
     id: 4,
     name: "Aseo y Limpieza",
+    href: "aseo",
     imgSrc: cleaning,
     imgAlt: "foto del servicio limpieza",
-    description: "Brindamos servicios de limpieza industrial de alto estándar, utilizando tecnología avanzada y productos especializados. Aseguramos espacios industriales impecables y seguros, optimizando la productividad y el bienestar de su entorno laboral.",
+    description:
+      "Brindamos servicios de limpieza industrial de alto estándar, utilizando tecnología avanzada y productos especializados. Aseguramos espacios industriales impecables y seguros, optimizando la productividad y el bienestar de su entorno laboral.",
   },
   {
     id: 5,
     name: "Seguridad",
+    href: "seguridad",
     imgSrc: guard,
     imgAlt: "foto del servicio seguridad",
     description:
@@ -59,9 +69,11 @@ export const servicios = [
   {
     id: 6,
     name: "Fumigación",
+    href: "fumigacion",
     imgSrc: exterminator,
     imgAlt: "foto del servicio fumigación",
-    description: "Ofrecemos una solución integral para mantener sus espacios limpios y libres de plagas. Con técnicas avanzadas y productos seguros, garantizamos ambientes higiénicos y protegidos. La limpieza y la salud de su espacio es nuestra prioridad.",
+    description:
+      "Ofrecemos una solución integral para mantener sus espacios limpios y libres de plagas. Con técnicas avanzadas y productos seguros, garantizamos ambientes higiénicos y protegidos. La limpieza y la salud de su espacio es nuestra prioridad.",
   },
 ];
 
@@ -98,4 +110,26 @@ export const equipo = [
     quote:
       '"No espero oportunidades, las creo con dedicación, esfuerzo y una visión clara de mis objetivos."',
   },
+];
+
+export const alimentacion = [
+  {
+    id: "alimentacion-1",
+    name: "Ave Mayo",
+    description:
+      "Sumérgete en una experiencia culinaria excepcional con nuestro exquisito sandwich de ave con mayonesa. Jugosos trozos de pechuga de pollo a la parrilla se combinan con una generosa capa de suave y cremosa mayonesa, creando una armonía de sabores que deleitarán tu paladar.",
+    img: avemayo,
+  },
+  {
+    id: "alimentacion-2",
+    name: "Sandwich Jamon Queso",
+    description: "Jamon, queso, tomate, lechuga, palta.",
+    img: jamonqueso,
+  },
+  {
+    id: "alimentacion-3",
+    name: "Fideos con salsa de tomate",
+    description: "Embárcate en un viaje culinario que deleitará tus sentidos con nuestro exquisito plato de fideos con salsa. La simplicidad se encuentra con la perfección en cada hebra de pasta, cuidadosamente cocida para alcanzar la textura ideal: al dente y seductora. Nuestra irresistible salsa, elaborada con tomates frescos, hierbas aromáticas y especias selectas, se mezcla con los fideos, creando una sinfonía de sabores que se funden en cada bocado. La riqueza de la salsa, con su equilibrio entre dulce y ácido, abraza cada fideo, transformando cada tenedor en una experiencia gastronómica.",
+    img: fideos,
+  }
 ];

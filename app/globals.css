@@ -21,6 +21,10 @@
   background: #ebf2fa;
 }
 
+.grid-area{
+  grid-area: 1/1
+}
+
 .back-color-variant {
   background: #92a5bc;
 }

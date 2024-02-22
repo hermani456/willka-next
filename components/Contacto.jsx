@@ -3,6 +3,8 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import TextAnimate from "@/components/TextAnimate";
+
 
 export default function Contacto() {
   const notify = () =>
@@ -43,12 +45,14 @@ export default function Contacto() {
   return (
     <section className=" bg-blue-950 px-6 py-24 sm:py-20 lg:px-8 font-montserrat" id="contacto">
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl font-bold font-museomoderno tracking-tight text-white sm:text2xl">
+        {/* <h2 className="text-3xl font-bold font-museomoderno tracking-tight text-white sm:text2xl">
           Contactanos
-        </h2>
-        <p className="mt-2  text-lg leading-8 text-orange-600">
+        </h2> */}
+        <TextAnimate once text="Contactanos" className="text-3xl sm:text-4xl lg:text-6xl  text-center font-museomoderno font-bold tracking-tight text-white" Wrapper="h2"/>
+        {/* <p className="mt-2  text-lg leading-8 text-orange-600">
           Te responderemos a la brevedad.
-        </p>
+        </p> */}
+        <TextAnimate once text="Te responderemos a la brevedad." className="mt-2  text-lg leading-8 text-orange-600" Wrapper="p"/>
       </div>
       <form
         ref={form}

@@ -1,7 +1,32 @@
+"use client";
+import { motion } from "framer-motion";
+
 export default function Hero() {
   return (
-    <section className="bg-gray-900 px-6 pt-14 lg:px-8 font-montserrat" id="home">
-      <div className="mx-auto max-w-2xl py-10 sm:py-36 lg:py-40">
+    <section
+      className="bg-gray-900 px-6 pt-14 lg:px-8 font-montserrat min-h-screen min-h-svh"
+      id="home"
+    >
+      <motion.div
+        variants={{
+          hidden: {
+            opacity: 0,
+            y: -100,
+          },
+          visible: {
+            opacity: 1,
+            y: 0,
+            transition: {
+              delay: 0.3,
+              duration: 0.5,
+            },
+          },
+        }}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        className="mx-auto max-w-2xl py-10 sm:py-36 lg:py-40"
+      >
         <div className="text-center">
           <h1 className="text-5xl font-bold font-museomoderno tracking-tight sm:text-7xl bg-gradient-to-r from-orange-700 via-violet-500 to-blue-400 text-transparent bg-clip-text animate-gradient bg-300">
             Servicios Willka
@@ -31,7 +56,7 @@ export default function Hero() {
             </a>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }

@@ -1,15 +1,18 @@
 "use client";
 import { motion } from "framer-motion";
 import { equipo } from "../utils/index";
-import Image from "next/image";
+import Image from "next/image"
+import TextAnimate from "@/components/TextAnimate";
+
 
 export default function Example() {
   return (
     <section className="bg-gray-900 font-montserrat" id="equipo">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <h2 className="text-3xl text-center font-museomoderno font-bold tracking-tight text-white mb-3">
+        {/* <h2 className="text-3xl text-center font-museomoderno font-bold tracking-tight text-white mb-3">
           Nuestro Equipo
-        </h2>
+        </h2> */}
+        <TextAnimate once text="Nuestro Equipo" className="text-3xl sm:text-4xl lg:text-6xl mb-12 sm:mb-20 text-center font-museomoderno font-bold tracking-tight text-white" Wrapper="h2"/>
         <div className="flex flex-col  flex-wrap">
           {/* card */}
           {equipo.map((person) => (
@@ -21,7 +24,7 @@ export default function Example() {
                 bounce: 0.4,
                 duration: 0.8,
               }}
-              viewport={{ once: false }}
+              viewport={{ once: true }}
               key={person.name}
               className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8 shadow-lg rounded-xl bg-gray-800 mb-5 p-5 border border-blue-600"
             >
