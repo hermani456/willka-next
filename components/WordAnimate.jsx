@@ -17,7 +17,7 @@ const WordAnimate = ({ text, className }) => {
         const end = start + 1 / words.length;
         const opacity = useTransform(scrollYProgress, [start, end], [0, 1]);
         return (
-          <span className="mr-1 relative">
+          <span key={index} className="mr-1 relative">
             <span className="absolute opacity-30">{word}</span>
             <motion.span style={{ opacity }} key={word + " " + index}>
               {word}

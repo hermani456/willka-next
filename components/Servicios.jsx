@@ -22,7 +22,7 @@ export default function Servicios() {
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           {servicios.map((servicio) => (
             <div key={servicio.id} className="flex justify-center">
-              {/* <Link href={servicio.href}> */}
+              <Link href={servicio.href}>
               <div className="w-80 h-96 max-sm:w-72 bg-gray-900 gap-10 border border-orange-500 rounded-xl shadow-2xl cursor-pointer">
                 <div className="p-5 flex flex-col h-full items-center justify-evenly">
                   <div className="">
@@ -43,7 +43,7 @@ export default function Servicios() {
                   </div>
                 </div>
               </div>
-              {/* </Link> */}
+              </Link>
             </div>
           ))}
         </div>

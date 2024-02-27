@@ -7,9 +7,9 @@ import {
   cleaning,
   exterminator,
 } from "../public/assets/img";
-import avemayo from "/public/assets/food/avemayo.png";
-import jamonqueso from "public/assets/food/jamonqueso.webp";
-import fideos from "public/assets/food/fideos.png";
+import {
+  lasagna, pollopapas, cazuela, arrozcarne
+} from "@/public/assets/food";
 
 export const navLinks = [
   { name: "Home", href: "#home" },
@@ -22,7 +22,7 @@ export const servicios = [
   {
     id: 1,
     name: "Hospedaje",
-    href: "hospedaje",
+    href: "hospedaje1",
     imgSrc: home,
     imgAlt: "Foto del servicio hospedaje",
     description:
@@ -40,7 +40,7 @@ export const servicios = [
   {
     id: 3,
     name: "Transporte",
-    href: "transporte",
+    href: "transporte1",
     imgSrc: minivan,
     imgAlt: "foto del servicio transporte",
     description:
@@ -114,22 +114,51 @@ export const equipo = [
 
 export const alimentacion = [
   {
-    id: "alimentacion-1",
-    name: "Ave Mayo",
+    id: "alimento-1",
+    name: "Lasagna con ensalada",
+    description: "¡Disfruta de una combinación perfecta con la lasaña casera de Servicios Willka acompañada de una fresca ensalada! Sumérgete en el delicioso mundo de los sabores caseros con cada bocado de nuestra lasaña, mientras complementas tu experiencia con una ensalada fresca y colorida. ¡Una combinación que deleitará tu paladar y satisfará tus antojos! ",
+    img: lasagna,
+  },
+  {
+    id: "alimento-2",
+    name: "Pollo a la plancha con papas rusticas",
+    description: "¡Descubre una explosión de sabores con nuestro exquisito pollo a la plancha, acompañado de papas rústicas y consomé de pollo! En Servicios Willka, te ofrecemos una experiencia culinaria única, donde la calidad y el sabor se combinan para deleitar tu paladar.",
+    img: pollopapas,
+  },
+  {
+    id: "alimento-4",
+    name: "Cazuela de vacuno con ensalada a la chilena",
+    description: "¡Disfruta de un festín de sabores con nuestra deliciosa cazuela de vacuno acompañada de una refrescante ensalada a la chilena! En Servicios Willka, te llevamos a un viaje culinario que combina lo mejor de la tradición y el sabor casero.",
+    img: cazuela,
+  },
+  {
+    id: "alimento-5",
+    name: "Carne mechada con arroz y ensalada",
+    description: "¡Déjate conquistar por nuestro irresistible plato de arroz con exquisita carne mechada y fresca ensalada! En Servicios Willka, te invitamos a disfrutar de una experiencia culinaria llena de sabor y tradición.",
+    img: arrozcarne,
+  },
+];
+
+export const hospedajes = [
+  {
+    id: "hospedaje-1",
+    name: "Habitaciones",
     description:
-      "Sumérgete en una experiencia culinaria excepcional con nuestro exquisito sandwich de ave con mayonesa. Jugosos trozos de pechuga de pollo a la parrilla se combinan con una generosa capa de suave y cremosa mayonesa, creando una armonía de sabores que deleitarán tu paladar.",
-    img: avemayo,
+      "Contamos con habitaciones cómodas y acogedoras para que tu estadía sea placentera.",
+    img: home,
   },
   {
-    id: "alimentacion-2",
-    name: "Sandwich Jamon Queso",
-    description: "Jamon, queso, tomate, lechuga, palta.",
-    img: jamonqueso,
+    id: "hospedaje-2",
+    name: "Baños",
+    description:
+      "Baños privados con agua caliente y fría las 24 horas del día.",
+    img: home,
   },
   {
-    id: "alimentacion-3",
-    name: "Fideos con salsa de tomate",
-    description: "Embárcate en un viaje culinario que deleitará tus sentidos con nuestro exquisito plato de fideos con salsa. La simplicidad se encuentra con la perfección en cada hebra de pasta, cuidadosamente cocida para alcanzar la textura ideal: al dente y seductora. Nuestra irresistible salsa, elaborada con tomates frescos, hierbas aromáticas y especias selectas, se mezcla con los fideos, creando una sinfonía de sabores que se funden en cada bocado. La riqueza de la salsa, con su equilibrio entre dulce y ácido, abraza cada fideo, transformando cada tenedor en una experiencia gastronómica.",
-    img: fideos,
-  }
+    id: "hospedaje-3",
+    name: "Espacios de relajación",
+    description:
+      "Contamos con espacios de relajación para que puedas disfrutar de la naturaleza.",
+    img: home,
+  },
 ];

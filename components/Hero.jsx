@@ -25,13 +25,14 @@ export default function Hero() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className="mx-auto max-w-2xl py-10 sm:py-36 lg:py-40"
+        className="mx-auto max-w-2xl py-10 sm:py-36 lg:py-40 "
       >
-        <div className="text-center">
+        <div className="text-center relative">
+          <div className="max-md:hidden absolute inset-y-16 inset-x-0 w-80 rounded-full rotate-45 bg-gradient-to-b from-orange-700 to-violet-500 blur-3xl mx-auto opacity-40"></div>
           <h1 className="text-5xl font-bold font-museomoderno tracking-tight sm:text-7xl bg-gradient-to-r from-orange-700 via-violet-500 to-blue-400 text-transparent bg-clip-text animate-gradient bg-300">
             Servicios Willka
           </h1>
-          <p className="mt-6 text-lg leading-8 text-white font-montserrat">
+          <p className="mt-6 text-lg leading-8 text-white font-montserrat z-10">
             Ofrecemos soluciones integrales y de alta calidad en{" "}
             <span className="font-bold">
               hospedaje, alimentación, transporte, aseo industrial, seguridad y
