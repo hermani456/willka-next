@@ -66,6 +66,7 @@ const page = () => {
             img={alimento.img}
           />
         ))}
+      <div className="sm:mb-96"/>
       </div>
     </section>
   );
