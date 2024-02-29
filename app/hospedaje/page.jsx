@@ -1,13 +1,9 @@
 "use client";
 import Image from "next/image";
-import img1 from "public/assets/hospedaje/1.png";
 import camasazules from "public/assets/hospedaje/2.png";
 import sonrie from "public/assets/hospedaje/3.JPG";
 import livingamarilla from "public/assets/hospedaje/4.JPG";
-import img5 from "public/assets/hospedaje/5.JPG";
 import camasrojas from "public/assets/hospedaje/6.JPG";
-import img7 from "public/assets/hospedaje/7.JPG";
-import img8 from "public/assets/hospedaje/8.JPG";
 import Footer from "@/components/Footer.jsx";
 import {
   arica,
