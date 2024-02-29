@@ -12,7 +12,6 @@ const FoodCard = ({ name, description, img }) => {
       <section className="flex flex-col lg:flex-row justify-center items-center gap-10 m-5">
         <div className="flex flex-col gap-5 m-5 lg:w-1/2 flex-grow-0">
           <h2 className="text-3xl text-orange-400 font-museomoderno">{name}</h2>
-          {/* <p>Ingredientes: </p> */}
           <WordAnimate text={description} />
         </div>
         <div className="flex justify-center align-center w-full lg:w-1/2 z-10 ">

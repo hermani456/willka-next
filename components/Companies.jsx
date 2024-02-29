@@ -27,9 +27,6 @@ export default function Companies() {
   return (
     <section className="py-8 sm:py-10 bg-gradient-to-r from-gray-900 to-black">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        {/* <h2 className="text-center text-2xl font-museomoderno leading-8 text-white">
-          Empresas que han confiado en nosotros
-        </h2> */}
         <TextAnimate
           once
           text="Empresas que han confiado en nosotros"
@@ -48,7 +45,7 @@ export default function Companies() {
             className="col-span-2 lg:col-span-1 "
           >
             <Image
-            className="max-h-12 w-full object-contain"
+              className="max-h-12 w-full object-contain"
               src={collahuasi}
               alt="Collahuasi"
               width={158}
@@ -61,7 +58,7 @@ export default function Companies() {
             className="col-span-2 lg:col-span-1 "
           >
             <Image
-            className="max-h-12 w-full object-contain"
+              className="max-h-12 w-full object-contain"
               src={techint}
               alt="Techint"
               width={158}
@@ -74,7 +71,7 @@ export default function Companies() {
             className="col-span-2 lg:col-span-1"
           >
             <Image
-            className="max-h-12 w-full object-contain"
+              className="max-h-12 w-full object-contain"
               src={teck}
               alt="Teck"
               width={158}
@@ -87,7 +84,7 @@ export default function Companies() {
             className="col-span-2 sm:col-start-2 lg:col-span-1"
           >
             <Image
-            className="max-h-12 w-full object-contain"
+              className="max-h-12 w-full object-contain"
               src={habekost}
               alt="habekost"
               width={158}
@@ -100,7 +97,7 @@ export default function Companies() {
             className="col-span-2  col-start-2 sm:col-start-auto lg:col-span-1 "
           >
             <Image
-            className="max-h-12 w-full object-contain"
+              className="max-h-12 w-full object-contain"
               src={kipreos}
               alt="kipreos"
               width={158}
