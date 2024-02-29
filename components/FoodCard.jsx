@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import avemayo from "/public/assets/food/avemayo.png";
 import WordAnimate from "@/components/WordAnimate";
 
 const FoodCard = ({ name, description, img }) => {
