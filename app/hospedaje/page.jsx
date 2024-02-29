@@ -1,11 +1,11 @@
 "use client";
 import Image from "next/image";
 import img1 from "public/assets/hospedaje/1.png";
-import img2 from "public/assets/hospedaje/2.png";
-import img3 from "public/assets/hospedaje/3.JPG";
-import img4 from "public/assets/hospedaje/4.JPG";
+import camasazules from "public/assets/hospedaje/2.png";
+import sonrie from "public/assets/hospedaje/3.JPG";
+import livingamarilla from "public/assets/hospedaje/4.JPG";
 import img5 from "public/assets/hospedaje/5.JPG";
-import img6 from "public/assets/hospedaje/6.JPG";
+import camasrojas from "public/assets/hospedaje/6.JPG";
 import img7 from "public/assets/hospedaje/7.JPG";
 import img8 from "public/assets/hospedaje/8.JPG";
 import Footer from "@/components/Footer.jsx";
@@ -39,47 +39,39 @@ const page = () => {
     {
       src: victoria,
       scale: scale4,
-      clas: "max-md:top-[15vh] max-md:left-[29vw] w-[25vw] h-[20vh] md:w-[25vw] md:h-[30vh] relative",
+      clas: "max-md:top-[25vh] max-md:left-[10vw] w-[45vw] h-[20vh] md:w-[25vw] md:h-[30vh] relative",
       clas2: "w-[25vw] h-[30vh] relative",
     },
     {
-      src: img2,
+      src: camasazules,
       scale: scale5,
-      clas: "top-[-10vh] left-[-25vw] w-[20vw] h-[20vh] md:w-[20vw] md:h-[38vh]  relative",
+      clas: "top-[-5vh] md:top-[-10vh] left-[-27vw] md:left-[-24vw] w-[23vw] h-[20vh] md:w-[20vw] md:h-[38vh]  relative",
       clas2: "top-[-10vh] left-[-25vw] w-[20vw] h-[38vh] relative",
     },
     {
-      src: img3,
-      scale: scale6,
-      clas: "top-[-25vh] left-[24vw] w-[15vw] h-[15vh] md:h-[40vh] relative",
+      src: sonrie,
+      scale: scale7,
+      clas: "top-[-1vh] md:top-[-25vh] left-[29vw] md:left-[21vw] w-[25vw] h-[23vh] md:w-[15vw] md:h-[40vh] relative",
       clas2: "top-[-25vh] left-[24vw] w-[15vw] h-[40vh] relative",
     },
     {
-      src: img4,
-      scale: scale7,
-      clas: "top-[-30vh] left-[1vw] w-[25vw] h-[21vh] md:w-[20vw] md:h-[25vh] relative",
+      src: livingamarilla,
+      scale: scale6,
+      clas: "top-[-27vh] md:top-[-30vh] left-[-2vw] w-[50vw] h-[21vh] md:w-[20vw] md:h-[25vh] relative",
       clas2: "top-[-30vh] left-[1vw] w-[20vw] h-[25vh] relative",
     },
     {
       src: living,
       scale: scale4,
-      clas: "w-[25vw] h-[25vh] md:top-[15vh] md:left-[25vw] md:w-[12vw] md:h-[30vh] relative",
+      clas: "w-[25vw] h-[25vh] md:top-[15vh] md:left-[20vw] md:w-[12vw] md:h-[35vh] relative",
       clas2: "top-[15vh] left-[25vw] w-[12vw] h-[30vh] relative",
     },
     {
-      src: img6,
-      scale: scale9,
-      clas: "top-[20vh] left-[-30vw] md:top-[30vh] md:left-[-5vw] w-[25vw] h-[25vh] relative",
+      src: camasrojas,
+      scale: scale7,
+      clas: "top-[20vh] left-[-30vw] md:top-[30vh] md:left-[-1vw] w-[25vw] h-[25vh] relative",
       clas2: "top-[30vh] left-[-5vw] w-[25vw] h-[25vh] relative",
     },
-    // {
-    //   src: img7,
-    //   scale: scale9,
-    // },
-    // {
-    //   src: img8,
-    //   scale: scale9,
-    // },
   ];
   return (
     <>
