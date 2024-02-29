@@ -9,6 +9,7 @@ import Lenis from "@studio-freight/lenis";
 import useDimension from "../../utils/useDimension";
 import FoodCard from "@/components/FoodCard";
 import { alimentacion } from "@/utils/index";
+import Footer from "@/components/Footer";
 
 const page = () => {
   useEffect(() => {
@@ -66,8 +67,9 @@ const page = () => {
             img={alimento.img}
           />
         ))}
-      <div className="sm:mb-96"/>
+        <div />
       </div>
+      <Footer />
     </section>
   );
 };

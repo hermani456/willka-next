@@ -8,8 +8,13 @@ import {
   exterminator,
 } from "../public/assets/img";
 import {
-  lasagna, pollopapas, cazuela, arrozcarne
+  lasagna,
+  pollopapas,
+  cazuela,
+  arrozcarne,
+  arrozpollo,
 } from "@/public/assets/food";
+import { habitacion, banio, tv } from "@/public/assets/hospedaje";
 
 export const navLinks = [
   { name: "Home", href: "#home" },
@@ -22,7 +27,7 @@ export const servicios = [
   {
     id: 1,
     name: "Hospedaje",
-    href: "hospedaje1",
+    href: "hospedaje",
     imgSrc: home,
     imgAlt: "Foto del servicio hospedaje",
     description:
@@ -40,7 +45,7 @@ export const servicios = [
   {
     id: 3,
     name: "Transporte",
-    href: "transporte1",
+    href: "transporte",
     imgSrc: minivan,
     imgAlt: "foto del servicio transporte",
     description:
@@ -115,50 +120,61 @@ export const equipo = [
 export const alimentacion = [
   {
     id: "alimento-1",
-    name: "Lasagna con ensalada",
-    description: "¡Disfruta de una combinación perfecta con la lasaña casera de Servicios Willka acompañada de una fresca ensalada! Sumérgete en el delicioso mundo de los sabores caseros con cada bocado de nuestra lasaña, mientras complementas tu experiencia con una ensalada fresca y colorida. ¡Una combinación que deleitará tu paladar y satisfará tus antojos! ",
+    name: "Lasaña con ensalada",
+    description:
+      "¡Disfruta de una combinación perfecta con la lasaña casera de Servicios Willka acompañada de una fresca ensalada! Sumérgete en el delicioso mundo de los sabores caseros con cada bocado de nuestra lasaña, mientras complementas tu experiencia con una ensalada fresca y colorida. ¡Una combinación que deleitará tu paladar y satisfará tus antojos! ",
     img: lasagna,
   },
   {
     id: "alimento-2",
     name: "Pollo a la plancha con papas rusticas",
-    description: "¡Descubre una explosión de sabores con nuestro exquisito pollo a la plancha, acompañado de papas rústicas y consomé de pollo! En Servicios Willka, te ofrecemos una experiencia culinaria única, donde la calidad y el sabor se combinan para deleitar tu paladar.",
+    description:
+      "¡Descubre una explosión de sabores con nuestro exquisito pollo a la plancha, acompañado de papas rústicas y consomé de pollo! En Servicios Willka, te ofrecemos una experiencia culinaria única, donde la calidad y el sabor se combinan para deleitar tu paladar.",
     img: pollopapas,
   },
   {
     id: "alimento-4",
     name: "Cazuela de vacuno con ensalada a la chilena",
-    description: "¡Disfruta de un festín de sabores con nuestra deliciosa cazuela de vacuno acompañada de una refrescante ensalada a la chilena! En Servicios Willka, te llevamos a un viaje culinario que combina lo mejor de la tradición y el sabor casero.",
+    description:
+      "¡Disfruta de un festín de sabores con nuestra deliciosa cazuela de vacuno acompañada de una refrescante ensalada a la chilena! En Servicios Willka, te llevamos a un viaje culinario que combina lo mejor de la tradición y el sabor casero.",
     img: cazuela,
   },
   {
     id: "alimento-5",
     name: "Carne mechada con arroz y ensalada",
-    description: "¡Déjate conquistar por nuestro irresistible plato de arroz con exquisita carne mechada y fresca ensalada! En Servicios Willka, te invitamos a disfrutar de una experiencia culinaria llena de sabor y tradición.",
+    description:
+      "¡Déjate conquistar por nuestro irresistible plato de arroz con exquisita carne mechada y fresca ensalada! En Servicios Willka, te invitamos a disfrutar de una experiencia culinaria llena de sabor y tradición.",
     img: arrozcarne,
+  },
+  {
+    id: "alimento-6",
+    name: "Arroz con pollo y consome de verduras",
+    description:
+      "¡No te pierdas nuestro delicioso arroz con pollo asado y consomé de verduras! En Servicios Willka, te ofrecemos una combinación perfecta de sabores caseros que te harán chuparte los dedos. Disfruta de nuestro jugoso pollo asado con arroz, acompañado de un reconfortante consomé de verduras que te hará sentir como en casa.",
+    img: arrozpollo,
   },
 ];
 
 export const hospedajes = [
   {
     id: "hospedaje-1",
-    name: "Habitaciones",
+    name: "Comodas habitaciones",
     description:
-      "Contamos con habitaciones cómodas y acogedoras para que tu estadía sea placentera.",
-    img: home,
+      "Disfruta de una estancia inolvidable en nuestras habitaciones, donde la comodidad y la tranquilidad son nuestra prioridad. Con un servicio excepcional y un ambiente acogedor, te garantizamos una experiencia de hospedaje única. ",
+    img: habitacion,
   },
   {
     id: "hospedaje-2",
-    name: "Baños",
+    name: "Baños privados",
     description:
-      "Baños privados con agua caliente y fría las 24 horas del día.",
-    img: home,
+      "Nuestras habitaciones ofrecen baños privados para que te sientas como en casa. Con una atención excepcional y un ambiente acogedor, te garantizamos una estancia relajante y tranquila.",
+    img: banio,
   },
   {
     id: "hospedaje-3",
-    name: "Espacios de relajación",
+    name: "Televisión por cable",
     description:
-      "Contamos con espacios de relajación para que puedas disfrutar de la naturaleza.",
-    img: home,
+      "Nuestras habitaciones están equipadas con televisión por cable para que disfrutes de tus programas favoritos.",
+    img: tv,
   },
 ];

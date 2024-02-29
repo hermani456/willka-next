@@ -33,7 +33,7 @@ export default function Companies() {
         <TextAnimate
           once
           text="Empresas que han confiado en nosotros"
-          className="text-3xl sm:text-4xl lg:text-5xl mb-10 sm:mb-16 text-center font-museomoderno font-bold tracking-tight text-white"
+          className="text-3xl sm:text-4xl lg:text-6xl mb-10 sm:mb-16 text-center font-museomoderno font-bold tracking-tight text-white"
           Wrapper="h2"
         />
         <motion.div
