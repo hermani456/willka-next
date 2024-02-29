@@ -25,7 +25,7 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <h3 className="text-white text-2xl">Navegacion</h3>
+            <h3 className="text-white text-2xl">Navegación</h3>
             <ul className="text-gray-300 font-palanquin">
               <Link href="/">
                 <li>Inicio</li>
@@ -48,7 +48,7 @@ const Footer = () => {
                 <li>Hospedaje</li>
               </Link>
               <Link href="alimentacion">
-                <li>Alimentacion</li>
+                <li>Alimentación</li>
               </Link>
               <Link href="transporte">
                 <li>Transporte</li>
@@ -60,7 +60,7 @@ const Footer = () => {
                 <li>Seguridad</li>
               </Link>
               <Link href="fumigacion">
-                <li>Fumigacion</li>
+                <li>Fumigación</li>
               </Link>
             </ul>
           </div>
@@ -68,7 +68,7 @@ const Footer = () => {
             <h3 className="text-white text-2xl">Contacto</h3>
             <ul className="text-gray-300 font-palanquin">
               <li className="flex items-center gap-2">
-                <MdOutlinePhone /> 123456789
+                <MdOutlinePhone /> +56995273144
               </li>
               <li className="flex items-center gap-2">
                 <MdOutlineMail />
