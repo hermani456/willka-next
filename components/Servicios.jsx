@@ -8,7 +8,10 @@ import { motion, useInView } from "framer-motion";
 
 export default function Servicios() {
   return (
-    <section className="bg-gradient-to-r from-blue-950 to-black font-montserrat" id="servicios">
+    <section
+      className="bg-gradient-to-r from-blue-950 to-black font-montserrat"
+      id="servicios"
+    >
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         {/* <h2 className="text-3xl text-center font-museomoderno font-bold tracking-tight text-white mb-10">
           Nuestros Servicios
@@ -23,26 +26,29 @@ export default function Servicios() {
           {servicios.map((servicio) => (
             <div key={servicio.id} className="flex justify-center">
               <Link href={servicio.href}>
-              <div className="w-80 h-96 max-sm:w-72 bg-gray-900 gap-10 border border-orange-500 rounded-xl shadow-2xl cursor-pointer">
-                <div className="p-5 flex flex-col h-full items-center justify-evenly">
-                  <div className="">
-                    <Image
-                      src={servicio.imgSrc}
-                      alt={servicio.imgAlt}
-                      width={200}
-                      height={200}
-                      onContextMenu={(e) => e.preventDefault()}
-                      className="h-32 w-32 object-cover"
-                    />
-                  </div>
-                  <div className="text-white font-bold">
-                    <h2>{servicio.name}</h2>
-                  </div>
-                  <div className="text-white text-sm">
-                    <p>{servicio.description}</p>
+                <div className="relative group">
+                  <div className="absolute -inset-1 bg-gradient-to-tl from-orange-700 via-violet-500 to-blue-400 rounded-xl blur opacity-75 animate-gradient group-hover:opacity-100 transition duration-200" />
+                  <div className="relative w-80 h-96 max-sm:w-72 bg-gray-900 gap-10  rounded-xl shadow-2xl cursor-pointer">
+                    <div className="p-5 flex flex-col h-full items-center justify-evenly">
+                      <div className="">
+                        <Image
+                          src={servicio.imgSrc}
+                          alt={servicio.imgAlt}
+                          width={200}
+                          height={200}
+                          onContextMenu={(e) => e.preventDefault()}
+                          className="h-32 w-32 object-cover"
+                        />
+                      </div>
+                      <div className="text-white font-bold">
+                        <h2>{servicio.name}</h2>
+                      </div>
+                      <div className="text-white text-sm">
+                        <p>{servicio.description}</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
               </Link>
             </div>
           ))}
