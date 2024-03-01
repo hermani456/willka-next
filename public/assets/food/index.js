@@ -1,7 +1,7 @@
-import lasagna from "./lasaña-ensalada.jpeg";
-import pollopapas from "./pollopapas-sopa.png";
-import arrozcarne from "./arrozcarne-ensalada.jpeg";
-import cazuela from "./cazuela-ensalada.jpeg";
-import arrozpollo from "./arrozpollo-sopa.jpeg";
+import lasagna from "./lasaña-ensalada.webp";
+import pollopapas from "./pollopapas-sopa.webp";
+import arrozcarne from "./arrozcarne-ensalada.webp";
+import cazuela from "./cazuela-ensalada.webp";
+import arrozpollo from "./arrozpollo-sopa.webp";
 
 export { lasagna, pollopapas, cazuela, arrozcarne, arrozpollo };
