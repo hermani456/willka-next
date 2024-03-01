@@ -101,8 +101,8 @@ export const equipo = [
   },
   {
     name: "Jessica Contreras",
-    email: "recursoshumanos@servicioswillka.cl",
-    role: "Administradora de RRHH",
+    email: "operaciones@servicioswillka.cl",
+    role: "Jefa de Operaciones",
     imageUrl: jessi,
     quote:
       '"La pasión y la perseverancia han sido mis aliados más fuertes en este camino hacia el éxito."',
