@@ -16,6 +16,7 @@ import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";
 import FoodCard from "@/components/FoodCard";
 import { hospedajes } from "../../utils/index.js";
+import { Carousel } from "@/components/Carousel.jsx";
 
 const page = () => {
   const container = useRef(null);
@@ -111,6 +112,12 @@ const page = () => {
               />
             );
           })}
+          <h2 className="my-14 text-3xl sm:text-4xl lg:text-6xl text-center font-museomoderno font-bold tracking-tight text-white">
+            Galeria de Fotos
+          </h2>
+          <div className="flex items-center justify-center relative min-h-[50svh] overflow-hidden">
+            <Carousel />
+          </div>
         </div>
       </div>
       <Footer />
