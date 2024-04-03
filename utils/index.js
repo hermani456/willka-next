@@ -15,6 +15,10 @@ import {
   arrozpollo,
 } from "@/public/assets/food";
 import { habitacion, banio, tv } from "@/public/assets/hospedaje";
+import { officeCleaning, industrial, publicos } from "@/public/assets/aseo";
+import { van, fordTransfer, pasajeros, aeropuerto, trabajadores, turistas } from "@/public/assets/transporte";
+import { camaras, seguridad2, seguridad3 } from "@/public/assets/seguridad";
+
 
 export const navLinks = [
   { name: "Home", href: "#home" },
@@ -176,5 +180,81 @@ export const hospedajes = [
     description:
       "Nuestras habitaciones están equipadas con televisión por cable para que disfrutes de tus programas favoritos.",
     img: tv,
+  },
+];
+
+export const aseo = [
+  {
+    id: "aseo-1",
+    name: "Limpieza de oficinas",
+    description: "Nuestro equipo altamente capacitado se encargará de mantener tus espacios impecables y organizados, utilizando técnicas y productos de limpieza de última generación que garantizan resultados de calidad superior. Desde la limpieza de escritorios y superficies hasta la desinfección de áreas comunes y la gestión de residuos, nos ocupamos de cada detalle para crear un entorno de trabajo saludable y agradable.",
+    img: officeCleaning,
+  },
+  {
+    id: "aseo-2",
+    name: "Limpieza industrial",
+    description: "Optimiza la eficiencia y seguridad de tu planta industrial con los servicios de limpieza especializados de Servicios Willka. Nos especializamos en ofrecer soluciones integrales de limpieza para todo tipo de instalaciones industriales, garantizando un ambiente limpio, seguro y productivo para tu equipo de trabajo.\nNuestro equipo de profesionales altamente capacitados utiliza técnicas avanzadas y equipos especializados para abordar las necesidades específicas de limpieza de tu planta. Desde la remoción de residuos industriales hasta la limpieza de maquinaria y equipos, nos aseguramos de mantener tus instalaciones en óptimas condiciones, cumpliendo con los más altos estándares de calidad y seguridad.",
+    img: industrial,
+  },
+  {
+    id: "aseo-3",
+    name: "Limpieza de espacios públicos",
+    description: "Transforma tus espacios públicos en áreas limpias, acogedoras y seguras con los servicios de limpieza especializados de Servicios Willka. Nos dedicamos a mantener parques, plazas, áreas recreativas y otros espacios públicos en óptimas condiciones, creando entornos agradables para residentes y visitantes por igual. Nuestro equipo de profesionales altamente capacitados utiliza técnicas avanzadas y productos eco-amigables para realizar la limpieza y mantenimiento de espacios públicos de manera efectiva y respetuosa con el medio ambiente. Desde la recolección de residuos hasta la limpieza de mobiliario urbano y áreas verdes, nos aseguramos de que cada rincón de tu comunidad luzca impecable.",
+    img: publicos,
+  },
+];
+
+export const transporte = [
+  {
+    id: "transporte-1",
+    name: "Traslados al aeropuerto",
+    description:
+      "Nuestro servicio de traslados al aeropuerto te ofrece comodidad y puntualidad para que llegues a tu destino de manera segura y sin contratiempos. Con conductores profesionales y vehículos modernos y equipados, te garantizamos un viaje placentero y sin estrés. Confía en nosotros para tus traslados al aeropuerto y disfruta de un servicio de calidad superior.",
+    img: aeropuerto,
+  },
+  {
+    id: "transporte-2",
+    name: "Viajes turísticos",
+    description:
+      "Descubre los destinos más emblemáticos de la región con nuestros viajes turísticos personalizados. Con guías expertos y vehículos cómodos, te llevamos a explorar los lugares más fascinantes y pintorescos de la zona. Disfruta de una experiencia inolvidable con nuestro servicio de viajes turísticos.",
+    img: turistas,
+  },
+  // {
+  //   id: "transporte-3",
+  //   name: "Traslados corporativos",
+  //   description:
+  //     "Optimiza la movilidad de tu empresa con nuestros traslados corporativos eficientes y seguros. Con conductores profesionales y vehículos de lujo, te ofrecemos un servicio de traslados exclusivo y personalizado para tus ejecutivos y empleados. Confía en nosotros para tus traslados corporativos y garantiza la puntualidad y comodidad de tu equipo.",
+  //   img: fordTransfer,
+  // },
+  {
+    id: "transporte-4",
+    name: "Traslado de trabajadores",
+    description:
+      "Facilita el traslado de tus trabajadores con nuestro servicio de traslado especializado. Con conductores profesionales y vehículos seguros, te ofrecemos una solución eficiente y cómoda para el transporte de tu personal. Confía en nosotros para garantizar la movilidad de tu equipo de trabajo.",
+    img: trabajadores,
+  }
+];
+
+export const seguridad = [
+  {
+    id: "seguridad-1",
+    name: "Guardias de seguridad",
+    description:
+      "Nuestro equipo de guardias de seguridad altamente capacitados se encarga de proteger tus espacios y bienes, garantizando la seguridad y tranquilidad de tu entorno. Con un enfoque en la prevención y la respuesta inmediata, nuestros profesionales están equipados con las herramientas y el entrenamiento necesarios para abordar situaciones de riesgo y asegurar la integridad de los bienes y personas a su cargo. Confía en nosotros para la protección de tus espacios y disfruta de la paz mental que brinda un servicio de seguridad confiable y personalizado.",
+    img: seguridad2,
+  },
+  {
+    id: "seguridad-2",
+    name: "Monitoreo 24/7",
+    description:
+      "Nuestro servicio de monitoreo 24/7 te ofrece una protección continua y efectiva para tus espacios y bienes. Con tecnología de vanguardia y un equipo de profesionales altamente capacitados, te garantizamos una vigilancia constante y una respuesta rápida ante cualquier incidente. Confía en nosotros para la seguridad de tus espacios y disfruta de la tranquilidad que brinda un servicio de monitoreo confiable y eficiente.",
+    img: camaras,
+  },
+  {
+    id: "seguridad-3",
+    name: "Sistemas de seguridad",
+    description:
+      "Nuestros sistemas de seguridad avanzados te ofrecen una protección integral para tus espacios y bienes. Con tecnología de última generación y un equipo de expertos en seguridad, te brindamos soluciones personalizadas y efectivas para garantizar la seguridad de tu entorno. Desde sistemas de videovigilancia hasta alarmas de intrusión, nos aseguramos de que tus espacios estén protegidos las 24 horas del día. Confía en nosotros para la instalación y el mantenimiento de tus sistemas de seguridad y disfruta de la tranquilidad que brinda una protección confiable y avanzada.",
+    img: seguridad3,
   },
 ];

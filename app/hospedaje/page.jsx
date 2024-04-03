@@ -83,14 +83,16 @@ const page = () => {
                 <motion.div
                   key={index}
                   style={{ scale: scale }}
-                  className="w-full h-full absolute top-0 flex items-center justify-center img-container"
+                  className="w-full h-full absolute top-0 flex items-center justify-center"
                 >
                   <div className={clas}>
                     <Image
                       src={src}
                       fill
-                      alt="Picture of the author"
+                      alt="Foto hospedaje"
                       className="object-cover rounded-md"
+                      placeholder="blur"
+                      blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkAAIAAAoAAv/lPAAAAA=="
                     />
                   </div>
                 </motion.div>

@@ -188,6 +188,8 @@ export const Carousel = () => {
             height={400}
             alt=""
             className="rounded-xl"
+            placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkAAIAAAoAAv/lPAAAAA=="
           />
         </motion.div>
       </AnimatePresence>

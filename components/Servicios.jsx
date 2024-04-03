@@ -3,8 +3,6 @@ import { servicios } from "../utils/index";
 import Image from "next/image";
 import Link from "next/link";
 import TextAnimate from "@/components/TextAnimate";
-import { useRef } from "react";
-import { motion, useInView } from "framer-motion";
 
 export default function Servicios() {
   return (
