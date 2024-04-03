@@ -18,7 +18,7 @@ import { habitacion, banio, tv } from "@/public/assets/hospedaje";
 import { officeCleaning, industrial, publicos } from "@/public/assets/aseo";
 import { van, fordTransfer, pasajeros, aeropuerto, trabajadores, turistas } from "@/public/assets/transporte";
 import { camaras, seguridad2, seguridad3 } from "@/public/assets/seguridad";
-
+import { fumigacion2, fumigacion3, fumigacion4 } from "@/public/assets/fumigacion";
 
 export const navLinks = [
   { name: "Home", href: "#home" },
@@ -256,5 +256,21 @@ export const seguridad = [
     description:
       "Nuestros sistemas de seguridad avanzados te ofrecen una protección integral para tus espacios y bienes. Con tecnología de última generación y un equipo de expertos en seguridad, te brindamos soluciones personalizadas y efectivas para garantizar la seguridad de tu entorno. Desde sistemas de videovigilancia hasta alarmas de intrusión, nos aseguramos de que tus espacios estén protegidos las 24 horas del día. Confía en nosotros para la instalación y el mantenimiento de tus sistemas de seguridad y disfruta de la tranquilidad que brinda una protección confiable y avanzada.",
     img: seguridad3,
+  },
+];
+
+export const fumigacion = [
+  {
+    id: "fumigacion-1",
+    name: "Fumigación de espacios",
+    description:
+      "Nuestro servicio de fumigación de espacios te ofrece una solución integral para eliminar plagas y mantener tus espacios limpios y seguros. Con técnicas avanzadas y productos seguros, garantizamos la erradicación de insectos y roedores, protegiendo la salud y el bienestar de tu entorno. Confía en nosotros para la fumigación de tus espacios y disfruta de un ambiente higiénico y protegido.",
+    img: fumigacion2,
+  },
+  {
+    id: "fumigacion-2",
+    name: "Fumigación de preventiva",
+    description: "¡Protege tu hogar o negocio antes de que las plagas se conviertan en un problema! En Servicios Willka ofrecemos fumigación preventiva para mantener alejadas a las plagas antes de que invadan tu espacio. Nuestro equipo de expertos en control de plagas utiliza métodos seguros y efectivos para crear barreras protectoras que mantendrán tu entorno libre de insectos y roedores no deseados. ¡No esperes a que las plagas se conviertan en una molestia, toma acción ahora con nuestra fumigación preventiva!",
+    img: fumigacion4,
   },
 ];
