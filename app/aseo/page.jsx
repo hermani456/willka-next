@@ -1,13 +1,6 @@
 "use client";
 import Image from "next/image";
-import camasazules from "public/assets/hospedaje/camasazules.webp";
-import sonrie from "public/assets/hospedaje/sonrie.JPG";
-import livingamarilla from "public/assets/hospedaje/livingamarilla.JPG";
-import camasrojas from "public/assets/hospedaje/camasrojas.JPG";
 import Footer from "@/components/Footer.jsx";
-import { victoria, living } from "public/assets/hospedaje";
-import { useScroll, useTransform, motion } from "framer-motion";
-import { useRef } from "react";
 import FoodCard from "@/components/FoodCard";
 import { aseo } from "../../utils/index.js";
 import aseobg from "public/assets/aseo/aseobg.jpg";
