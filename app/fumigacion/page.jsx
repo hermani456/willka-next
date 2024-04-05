@@ -3,10 +3,17 @@ import Image from "next/image";
 import Footer from "@/components/Footer.jsx";
 import FoodCard from "@/components/FoodCard";
 import { fumigacion } from "../../utils/index.js";
-import fordTransfer from "public/assets/transporte/ford-transit.avif";
 import fumigacion3 from "public/assets/fumigacion/fumigacion2.jpg";
+import { motion, useTransform, useScroll } from "framer-motion";
+import { useRef } from "react";
 
 const page = () => {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start start", "end start"],
+  });
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 1.15]);
   return (
     <>
       <div className="bg-gradient-to-r from-gray-900 to-black">
@@ -15,14 +22,15 @@ const page = () => {
         </h1>
         <header className="relative h-dvh h-screen flex justify-center text-white font-montserrat">
           <div className="absolute inset-0">
-            <Image
-              src={fumigacion3}
-              alt="victoria"
-            //   layout="fill"
-            //   objectFit="cover"
-              quality={100}
-              className="object-fill w-full h-full"
-            />
+            <motion.div className="overflow-hidden">
+              <motion.div style={{ scale }} className="h-[100svh] h-[100vh]">
+                <Image
+                  src={fumigacion3}
+                  alt="Your image"
+                  className="object-cover w-full h-full"
+                />
+              </motion.div>
+            </motion.div>
           </div>
           <div className="relative flex items-center flex-col justify-center">
             {/* <h2 className="text-4xl sm:text-6xl lg:text-8xl">Titulo</h2> */}
