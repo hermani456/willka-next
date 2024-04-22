@@ -5,6 +5,7 @@ import FoodCard from "@/components/FoodCard";
 import { transporte } from "../../utils/index.js";
 import fordTransfer from "public/assets/transporte/ford-transit.avif";
 import willkatransporte from "public/assets/transporte/willkatransporte.png";
+import willkatransporte2 from "public/assets/transporte/willkatransporte.webp";
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
 
@@ -28,7 +29,7 @@ const page = () => {
               <motion.div style={{ overflow: "hidden" }}>
                 <motion.div style={{ scale }} className="h-[100svh] h-[100vh]">
                   <Image
-                    src={willkatransporte}
+                    src={willkatransporte2}
                     alt="Your image"
                     // sizes="100vw"
                     // fill
