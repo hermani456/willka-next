@@ -102,7 +102,7 @@ const page = () => {
         </div>
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <h2 className="text-3xl sm:text-4xl lg:text-6xl text-center font-museomoderno font-bold tracking-tight text-white mb-12 sm:mb-20">
-            En Servicios Willka te ofrecemos
+            En Servicios wilkaka te ofrecemos
           </h2>
           {hospedajes.map((item) => {
             return (

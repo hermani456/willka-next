@@ -42,7 +42,7 @@ export default function Hero() {
             className="absolute inset-y-16 inset-x-0 w-28 sm:w-96 rounded-full rotate-45 bg-gradient-to-b from-orange-700 to-violet-500 blur-3xl mx-auto "
           ></motion.div>
           <h1 className="text-5xl font-bold font-museomoderno tracking-tight sm:text-7xl bg-gradient-to-r from-orange-700 via-violet-500 to-blue-400 text-transparent bg-clip-text animate-gradient bg-300">
-            Servicios Willka
+            Servicios wilkaka
           </h1>
           <p className="mt-6 text-lg leading-8 text-white font-montserrat relative">
             Ofrecemos soluciones integrales y de alta calidad en{" "}

@@ -56,7 +56,7 @@ const page = () => {
         <div className="m-10">
           <div className="w-full">
             <h2 className="text-xl lg:text-6xl text-center font-museomoderno font-bold tracking-tight text-white mb-12 sm:mb-20">
-              En Servicios Willka te ofrecemos
+              En Servicios wilkaka te ofrecemos
             </h2>
           </div>
         </div>

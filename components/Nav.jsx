@@ -47,7 +47,7 @@ export default function Example() {
                   <Image
                     className="h-8 w-auto"
                     src={logo}
-                    alt="Logo Servicios Willka"
+                    alt="Logo Servicios wilkaka"
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
@@ -72,7 +72,7 @@ export default function Example() {
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <p className="font-museomoderno text-orange-500">
-                  Servicios <span className="text-blue-600">Willka</span>
+                  Servicios <span className="text-blue-600">wilkaka</span>
                 </p>
               </div>
             </div>

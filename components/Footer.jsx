@@ -12,12 +12,12 @@ const Footer = () => {
             <div className="flex flex-col justify-center items-center">
               <Image
                 src={logo}
-                alt="Logo Servicios Willka"
+                alt="Logo Servicios wilkaka"
                 width={55}
                 height={55}
               />
               <h3 className="text-white text-2xl text-center">
-                Servicios Willka
+                Servicios wilkaka
               </h3>
             </div>
             <p className="text-gray-300 font-palanquin text-center">
@@ -68,25 +68,25 @@ const Footer = () => {
             <h3 className="text-white text-2xl">Contacto</h3>
             <ul className="text-gray-300 font-palanquin">
               <li className="flex items-center gap-2">
-                <MdOutlinePhone /> +56995273144
+                <MdOutlinePhone /> +56995273456
               </li>
               <li className="flex items-center gap-2">
                 <MdOutlineMail />
-                <a href="mailto:ventas@servicioswillka.cl">
+                <a href="mailto:ventas@servicioswilkaka.cl">
                   {" "}
-                  ventas@servicioswillka.cl
+                  ventas@servicioswilkaka.cl
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <MdOutlinePlace />
-                Aldunate 215, Pozo Almonte
+                Aldunate 456, Pozo Almonte
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div className="flex justify-center w-full pb-4 text-center text-sm text-gray-300 bottom-0 absolute">
-        <p>© 2023 Copyright: Servicios Willka</p>
+        <p>© 2023 Copyright: Servicios wilkaka</p>
       </div>
     </footer>
   );

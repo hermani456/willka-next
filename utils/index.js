@@ -88,32 +88,32 @@ export const servicios = [
 
 export const equipo = [
   {
-    name: "Matilde Alpiri",
-    email: "gerencia@servicioswillka.cl",
+    name: "Motoko Kusanagi",
+    email: "gerencia@servicioswilkaka.cl",
     role: "Fundadora / CEO",
     imageUrl: maty,
     quote:
       '"Mi éxito no se mide por las veces que he ganado, sino por las veces que me he levantado después de caer."',
   },
   {
-    name: "Macarena Araya",
-    email: "finanzas@servicioswillka.cl",
+    name: "Macarena Soto",
+    email: "finanzas@servicioswilkaka.cl",
     role: "Contador Auditor",
     imageUrl: maca,
     quote:
       '"El fracaso nunca ha sido un fin, sino una oportunidad para aprender y crecer."',
   },
   {
-    name: "Jessica Contreras",
-    email: "operaciones@servicioswillka.cl",
+    name: "Jessica Araya",
+    email: "operaciones@servicioswilkaka.cl",
     role: "Jefa de Operaciones",
     imageUrl: jessi,
     quote:
       '"La pasión y la perseverancia han sido mis aliados más fuertes en este camino hacia el éxito."',
   },
   {
-    name: "Berta Araya",
-    email: "administracion@servicioswillka.cl",
+    name: "Berta González",
+    email: "administracion@servicioswilkaka.cl",
     role: "Administradora de Contratos",
     imageUrl: berta,
     quote:
@@ -126,35 +126,35 @@ export const alimentacion = [
     id: "alimento-1",
     name: "Lasaña con ensalada",
     description:
-      "¡Disfruta de una combinación perfecta con la lasaña casera de Servicios Willka acompañada de una fresca ensalada! Sumérgete en el delicioso mundo de los sabores caseros con cada bocado de nuestra lasaña, mientras complementas tu experiencia con una ensalada fresca y colorida. ¡Una combinación que deleitará tu paladar y satisfará tus antojos! ",
+      "¡Disfruta de una combinación perfecta con la lasaña casera de Servicios wilkaka acompañada de una fresca ensalada! Sumérgete en el delicioso mundo de los sabores caseros con cada bocado de nuestra lasaña, mientras complementas tu experiencia con una ensalada fresca y colorida. ¡Una combinación que deleitará tu paladar y satisfará tus antojos! ",
     img: lasagna,
   },
   {
     id: "alimento-2",
     name: "Pollo a la plancha con papas rusticas",
     description:
-      "¡Descubre una explosión de sabores con nuestro exquisito pollo a la plancha, acompañado de papas rústicas y consomé de pollo! En Servicios Willka, te ofrecemos una experiencia culinaria única, donde la calidad y el sabor se combinan para deleitar tu paladar.",
+      "¡Descubre una explosión de sabores con nuestro exquisito pollo a la plancha, acompañado de papas rústicas y consomé de pollo! En Servicios wilkaka, te ofrecemos una experiencia culinaria única, donde la calidad y el sabor se combinan para deleitar tu paladar.",
     img: pollopapas,
   },
   {
     id: "alimento-4",
     name: "Cazuela de vacuno con ensalada a la chilena",
     description:
-      "¡Disfruta de un festín de sabores con nuestra deliciosa cazuela de vacuno acompañada de una refrescante ensalada a la chilena! En Servicios Willka, te llevamos a un viaje culinario que combina lo mejor de la tradición y el sabor casero.",
+      "¡Disfruta de un festín de sabores con nuestra deliciosa cazuela de vacuno acompañada de una refrescante ensalada a la chilena! En Servicios wilkaka, te llevamos a un viaje culinario que combina lo mejor de la tradición y el sabor casero.",
     img: cazuela,
   },
   {
     id: "alimento-5",
     name: "Carne mechada con arroz y ensalada",
     description:
-      "¡Déjate conquistar por nuestro irresistible plato de arroz con exquisita carne mechada y fresca ensalada! En Servicios Willka, te invitamos a disfrutar de una experiencia culinaria llena de sabor y tradición.",
+      "¡Déjate conquistar por nuestro irresistible plato de arroz con exquisita carne mechada y fresca ensalada! En Servicios wilkaka, te invitamos a disfrutar de una experiencia culinaria llena de sabor y tradición.",
     img: arrozcarne,
   },
   {
     id: "alimento-6",
     name: "Arroz con pollo y consome de verduras",
     description:
-      "¡No te pierdas nuestro delicioso arroz con pollo asado y consomé de verduras! En Servicios Willka, te ofrecemos una combinación perfecta de sabores caseros que te harán chuparte los dedos. Disfruta de nuestro jugoso pollo asado con arroz, acompañado de un reconfortante consomé de verduras que te hará sentir como en casa.",
+      "¡No te pierdas nuestro delicioso arroz con pollo asado y consomé de verduras! En Servicios wilkaka, te ofrecemos una combinación perfecta de sabores caseros que te harán chuparte los dedos. Disfruta de nuestro jugoso pollo asado con arroz, acompañado de un reconfortante consomé de verduras que te hará sentir como en casa.",
     img: arrozpollo,
   },
 ];
@@ -193,13 +193,13 @@ export const aseo = [
   {
     id: "aseo-2",
     name: "Limpieza industrial",
-    description: "Optimiza la eficiencia y seguridad de tu planta industrial con los servicios de limpieza especializados de Servicios Willka. Nos especializamos en ofrecer soluciones integrales de limpieza para todo tipo de instalaciones industriales, garantizando un ambiente limpio, seguro y productivo para tu equipo de trabajo.\nNuestro equipo de profesionales altamente capacitados utiliza técnicas avanzadas y equipos especializados para abordar las necesidades específicas de limpieza de tu planta. Desde la remoción de residuos industriales hasta la limpieza de maquinaria y equipos, nos aseguramos de mantener tus instalaciones en óptimas condiciones, cumpliendo con los más altos estándares de calidad y seguridad.",
+    description: "Optimiza la eficiencia y seguridad de tu planta industrial con los servicios de limpieza especializados de Servicios wilkaka. Nos especializamos en ofrecer soluciones integrales de limpieza para todo tipo de instalaciones industriales, garantizando un ambiente limpio, seguro y productivo para tu equipo de trabajo.\nNuestro equipo de profesionales altamente capacitados utiliza técnicas avanzadas y equipos especializados para abordar las necesidades específicas de limpieza de tu planta. Desde la remoción de residuos industriales hasta la limpieza de maquinaria y equipos, nos aseguramos de mantener tus instalaciones en óptimas condiciones, cumpliendo con los más altos estándares de calidad y seguridad.",
     img: industrial,
   },
   {
     id: "aseo-3",
     name: "Limpieza de espacios públicos",
-    description: "Transforma tus espacios públicos en áreas limpias, acogedoras y seguras con los servicios de limpieza especializados de Servicios Willka. Nos dedicamos a mantener parques, plazas, áreas recreativas y otros espacios públicos en óptimas condiciones, creando entornos agradables para residentes y visitantes por igual. Nuestro equipo de profesionales altamente capacitados utiliza técnicas avanzadas y productos eco-amigables para realizar la limpieza y mantenimiento de espacios públicos de manera efectiva y respetuosa con el medio ambiente. Desde la recolección de residuos hasta la limpieza de mobiliario urbano y áreas verdes, nos aseguramos de que cada rincón de tu comunidad luzca impecable.",
+    description: "Transforma tus espacios públicos en áreas limpias, acogedoras y seguras con los servicios de limpieza especializados de Servicios wilkaka. Nos dedicamos a mantener parques, plazas, áreas recreativas y otros espacios públicos en óptimas condiciones, creando entornos agradables para residentes y visitantes por igual. Nuestro equipo de profesionales altamente capacitados utiliza técnicas avanzadas y productos eco-amigables para realizar la limpieza y mantenimiento de espacios públicos de manera efectiva y respetuosa con el medio ambiente. Desde la recolección de residuos hasta la limpieza de mobiliario urbano y áreas verdes, nos aseguramos de que cada rincón de tu comunidad luzca impecable.",
     img: publicos,
   },
 ];
@@ -270,7 +270,7 @@ export const fumigacion = [
   {
     id: "fumigacion-2",
     name: "Fumigación de preventiva",
-    description: "¡Protege tu hogar o negocio antes de que las plagas se conviertan en un problema! En Servicios Willka ofrecemos fumigación preventiva para mantener alejadas a las plagas antes de que invadan tu espacio. Nuestro equipo de expertos en control de plagas utiliza métodos seguros y efectivos para crear barreras protectoras que mantendrán tu entorno libre de insectos y roedores no deseados. ¡No esperes a que las plagas se conviertan en una molestia, toma acción ahora con nuestra fumigación preventiva!",
+    description: "¡Protege tu hogar o negocio antes de que las plagas se conviertan en un problema! En Servicios wilkaka ofrecemos fumigación preventiva para mantener alejadas a las plagas antes de que invadan tu espacio. Nuestro equipo de expertos en control de plagas utiliza métodos seguros y efectivos para crear barreras protectoras que mantendrán tu entorno libre de insectos y roedores no deseados. ¡No esperes a que las plagas se conviertan en una molestia, toma acción ahora con nuestra fumigación preventiva!",
     img: fumigacion4,
   },
 ];
