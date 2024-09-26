@@ -91,7 +91,7 @@ export const equipo = [
     name: "Motoko Kusanagi",
     email: "gerencia@servicioswilkaka.cl",
     role: "Fundadora / CEO",
-    imageUrl: maty,
+    imageUrl: "https://randomuser.me/api/portraits/women/1.jpg",
     quote:
       '"Mi éxito no se mide por las veces que he ganado, sino por las veces que me he levantado después de caer."',
   },
@@ -99,7 +99,7 @@ export const equipo = [
     name: "Erza Scarlet",
     email: "finanzas@servicioswilkaka.cl",
     role: "Contador Auditor",
-    imageUrl: maca,
+    imageUrl: "https://randomuser.me/api/portraits/women/2.jpg",
     quote:
       '"El fracaso nunca ha sido un fin, sino una oportunidad para aprender y crecer."',
   },
@@ -107,7 +107,7 @@ export const equipo = [
     name: "Sakura Haruno",
     email: "operaciones@servicioswilkaka.cl",
     role: "Jefa de Operaciones",
-    imageUrl: jessi,
+    imageUrl: "https://randomuser.me/api/portraits/women/3.jpg",
     quote:
       '"La pasión y la perseverancia han sido mis aliados más fuertes en este camino hacia el éxito."',
   },
@@ -115,7 +115,7 @@ export const equipo = [
     name: "Diana Prince",
     email: "administracion@servicioswilkaka.cl",
     role: "Administradora de Contratos",
-    imageUrl: berta,
+    imageUrl: "https://randomuser.me/api/portraits/women/4.jpg",
     quote:
       '"No espero oportunidades, las creo con dedicación, esfuerzo y una visión clara de mis objetivos."',
   },
