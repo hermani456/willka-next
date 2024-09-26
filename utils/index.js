@@ -96,7 +96,7 @@ export const equipo = [
       '"Mi éxito no se mide por las veces que he ganado, sino por las veces que me he levantado después de caer."',
   },
   {
-    name: "Macarena Soto",
+    name: "Erza Scarlet",
     email: "finanzas@servicioswilkaka.cl",
     role: "Contador Auditor",
     imageUrl: maca,
@@ -104,7 +104,7 @@ export const equipo = [
       '"El fracaso nunca ha sido un fin, sino una oportunidad para aprender y crecer."',
   },
   {
-    name: "Jessica Araya",
+    name: "Sakura Haruno",
     email: "operaciones@servicioswilkaka.cl",
     role: "Jefa de Operaciones",
     imageUrl: jessi,
@@ -112,7 +112,7 @@ export const equipo = [
       '"La pasión y la perseverancia han sido mis aliados más fuertes en este camino hacia el éxito."',
   },
   {
-    name: "Berta González",
+    name: "Diana Prince",
     email: "administracion@servicioswilkaka.cl",
     role: "Administradora de Contratos",
     imageUrl: berta,
