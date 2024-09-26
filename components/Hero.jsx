@@ -54,7 +54,7 @@ export default function Hero() {
             mientras garantizamos prácticas sostenibles y éticas en cada uno de
             nuestros servicios.
           </p>
-          <div className="mt-10 flex items-center justify-center gap-x-6">
+          <div className="mt-10 flex items-center justify-center gap-x-6 relative">
             <a
               href="#contacto"
               className="rounded-md bg-orange-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
