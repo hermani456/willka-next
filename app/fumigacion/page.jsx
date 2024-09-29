@@ -36,7 +36,7 @@ const page = () => {
             {/* <h2 className="text-4xl sm:text-6xl lg:text-8xl">Titulo</h2> */}
             <p className="mx-10 md:mx-36 xl:mx-96 text-xl font-bold bg-white text-black p-5 opacity-75 rounded-xl">
               ¿Plagas invadiendo tu espacio? ¡No te preocupes más! En Servicios
-              wilkaka ofrecemos soluciones efectivas de fumigación para proteger
+              Wilko ofrecemos soluciones efectivas de fumigación para proteger
               tu hogar o negocio. Nuestro equipo de expertos en control de
               plagas utiliza técnicas avanzadas y productos seguros para
               eliminar insectos y roedores indeseados. ¡Recupera la tranquilidad
@@ -47,7 +47,7 @@ const page = () => {
         </header>
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <h2 className="text-3xl sm:text-4xl lg:text-6xl text-center font-museomoderno font-bold tracking-tight text-white mb-12 sm:mb-20">
-            En Servicios wilkaka te ofrecemos
+            En Servicios Wilko te ofrecemos
           </h2>
           {fumigacion.map((item) => {
             return (

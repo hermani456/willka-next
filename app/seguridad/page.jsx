@@ -35,7 +35,7 @@ const page = () => {
           <div className="relative flex items-center flex-col justify-center">
             {/* <h2 className="text-4xl sm:text-6xl lg:text-8xl">Titulo</h2> */}
             <p className="mx-10 md:mx-36 xl:mx-96 text-xl font-bold bg-white text-black p-5 opacity-75 rounded-xl">
-              En Servicios wilkaka, tu seguridad es nuestra prioridad número uno.
+              En Servicios Wilko, tu seguridad es nuestra prioridad número uno.
               Nuestros profesionales altamente capacitados en seguridad y
               nuestro sistema de monitoreo avanzado trabajan las 24 horas del
               día para proteger lo que más te importa. Desde guardias de
@@ -48,7 +48,7 @@ const page = () => {
         </header>
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <h2 className="text-3xl sm:text-4xl lg:text-6xl text-center font-museomoderno font-bold tracking-tight text-white mb-12 sm:mb-20">
-            En Servicios wilkaka te ofrecemos
+            En Servicios Wilko te ofrecemos
           </h2>
           {seguridad.map((item) => {
             return (

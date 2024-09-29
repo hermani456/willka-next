@@ -12,12 +12,12 @@ const Footer = () => {
             <div className="flex flex-col justify-center items-center">
               <Image
                 src={logo}
-                alt="Logo Servicios wilkaka"
+                alt="Logo Servicios Wilko"
                 width={55}
                 height={55}
               />
               <h3 className="text-white text-2xl text-center">
-                Servicios wilkaka
+                Servicios Wilko
               </h3>
             </div>
             <p className="text-gray-300 font-palanquin text-center">
@@ -72,9 +72,9 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <MdOutlineMail />
-                <a href="mailto:ventas@servicioswilkaka.cl">
+                <a href="mailto:ventas@servicioswilko.cl">
                   {" "}
-                  ventas@servicioswilkaka.cl
+                  ventas@servicioswilko.cl
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -86,7 +86,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-center w-full pb-4 text-center text-sm text-gray-300 bottom-0 absolute">
-        <p>© 2023 Copyright: Servicios wilkaka</p>
+        <p>© 2023 Copyright: Servicios wilko</p>
       </div>
     </footer>
   );
